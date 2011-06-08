@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5562BDB1139FEFA7007548A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5562BDB0139FEFA7007548A9 /* UIKit.framework */; };
+		5562BDB3139FEFA7007548A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5562BDB2139FEFA7007548A9 /* Foundation.framework */; };
+		5562BDB5139FEFA7007548A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5562BDB4139FEFA7007548A9 /* CoreGraphics.framework */; };
+		5562BDBB139FEFA7007548A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5562BDB9139FEFA7007548A9 /* InfoPlist.strings */; };
+		5562BDBE139FEFA7007548A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5562BDBD139FEFA7007548A9 /* main.m */; };
+		5562BDC1139FEFA7007548A9 /* MobileDevNJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5562BDC0139FEFA7007548A9 /* MobileDevNJAppDelegate.m */; };
+		5562BDC4139FEFA7007548A9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5562BDC2139FEFA7007548A9 /* MainWindow.xib */; };
+		5562BDC7139FEFA7007548A9 /* MobileDevNJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5562BDC6139FEFA7007548A9 /* MobileDevNJViewController.m */; };
+		5562BDCA139FEFA7007548A9 /* MobileDevNJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5562BDC8139FEFA7007548A9 /* MobileDevNJViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5562BDAC139FEFA7007548A9 /* MobileDevNJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDevNJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5562BDB0139FEFA7007548A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5562BDB2139FEFA7007548A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5562BDB4139FEFA7007548A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5562BDB8139FEFA7007548A9 /* MobileDevNJ-Info.plist */ = {isa = PBXFileReference; path = "MobileDevNJ-Info.plist"; sourceTree = "<group>"; };
+		5562BDBA139FEFA7007548A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5562BDBC139FEFA7007548A9 /* MobileDevNJ-Prefix.pch */ = {isa = PBXFileReference; path = "MobileDevNJ-Prefix.pch"; sourceTree = "<group>"; };
+		5562BDBD139FEFA7007548A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5562BDBF139FEFA7007548A9 /* MobileDevNJAppDelegate.h */ = {isa = PBXFileReference; path = MobileDevNJAppDelegate.h; sourceTree = "<group>"; };
+		5562BDC0139FEFA7007548A9 /* MobileDevNJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileDevNJAppDelegate.m; sourceTree = "<group>"; };
+		5562BDC3139FEFA7007548A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5562BDC5139FEFA7007548A9 /* MobileDevNJViewController.h */ = {isa = PBXFileReference; path = MobileDevNJViewController.h; sourceTree = "<group>"; };
+		5562BDC6139FEFA7007548A9 /* MobileDevNJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileDevNJViewController.m; sourceTree = "<group>"; };
+		5562BDC9139FEFA7007548A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MobileDevNJViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5562BDA9139FEFA7007548A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5562BDB1139FEFA7007548A9 /* UIKit.framework in Frameworks */,
+				5562BDB3139FEFA7007548A9 /* Foundation.framework in Frameworks */,
+				5562BDB5139FEFA7007548A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5562BDA1139FEFA6007548A9 = {
+			isa = PBXGroup;
+			children = (
+				5562BDB6139FEFA7007548A9 /* MobileDevNJ */,
+				5562BDAF139FEFA7007548A9 /* Frameworks */,
+				5562BDAD139FEFA7007548A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5562BDAD139FEFA7007548A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5562BDAC139FEFA7007548A9 /* MobileDevNJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5562BDAF139FEFA7007548A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5562BDB0139FEFA7007548A9 /* UIKit.framework */,
+				5562BDB2139FEFA7007548A9 /* Foundation.framework */,
+				5562BDB4139FEFA7007548A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5562BDB6139FEFA7007548A9 /* MobileDevNJ */ = {
+			isa = PBXGroup;
+			children = (
+				5562BDBF139FEFA7007548A9 /* MobileDevNJAppDelegate.h */,
+				5562BDC0139FEFA7007548A9 /* MobileDevNJAppDelegate.m */,
+				5562BDC2139FEFA7007548A9 /* MainWindow.xib */,
+				5562BDC5139FEFA7007548A9 /* MobileDevNJViewController.h */,
+				5562BDC6139FEFA7007548A9 /* MobileDevNJViewController.m */,
+				5562BDC8139FEFA7007548A9 /* MobileDevNJViewController.xib */,
+				5562BDB7139FEFA7007548A9 /* Supporting Files */,
+			);
+			path = MobileDevNJ;
+			sourceTree = "<group>";
+		};
+		5562BDB7139FEFA7007548A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5562BDB8139FEFA7007548A9 /* MobileDevNJ-Info.plist */,
+				5562BDB9139FEFA7007548A9 /* InfoPlist.strings */,
+				5562BDBC139FEFA7007548A9 /* MobileDevNJ-Prefix.pch */,
+				5562BDBD139FEFA7007548A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5562BDAB139FEFA7007548A9 /* MobileDevNJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5562BDCD139FEFA7007548A9 /* Build configuration list for PBXNativeTarget "MobileDevNJ" */;
+			buildPhases = (
+				5562BDA8139FEFA7007548A9 /* Sources */,
+				5562BDA9139FEFA7007548A9 /* Frameworks */,
+				5562BDAA139FEFA7007548A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileDevNJ;
+			productName = MobileDevNJ;
+			productReference = 5562BDAC139FEFA7007548A9 /* MobileDevNJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5562BDA3139FEFA6007548A9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5562BDA6139FEFA6007548A9 /* Build configuration list for PBXProject "MobileDevNJ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5562BDA1139FEFA6007548A9;
+			productRefGroup = 5562BDAD139FEFA7007548A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5562BDAB139FEFA7007548A9 /* MobileDevNJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5562BDAA139FEFA7007548A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5562BDBB139FEFA7007548A9 /* InfoPlist.strings in Resources */,
+				5562BDC4139FEFA7007548A9 /* MainWindow.xib in Resources */,
+				5562BDCA139FEFA7007548A9 /* MobileDevNJViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5562BDA8139FEFA7007548A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5562BDBE139FEFA7007548A9 /* main.m in Sources */,
+				5562BDC1139FEFA7007548A9 /* MobileDevNJAppDelegate.m in Sources */,
+				5562BDC7139FEFA7007548A9 /* MobileDevNJViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5562BDB9139FEFA7007548A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5562BDBA139FEFA7007548A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5562BDC2139FEFA7007548A9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5562BDC3139FEFA7007548A9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5562BDC8139FEFA7007548A9 /* MobileDevNJViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5562BDC9139FEFA7007548A9 /* en */,
+			);
+			name = MobileDevNJViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5562BDCB139FEFA7007548A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5562BDCC139FEFA7007548A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5562BDCE139FEFA7007548A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileDevNJ/MobileDevNJ-Prefix.pch";
+				INFOPLIST_FILE = "MobileDevNJ/MobileDevNJ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5562BDCF139FEFA7007548A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileDevNJ/MobileDevNJ-Prefix.pch";
+				INFOPLIST_FILE = "MobileDevNJ/MobileDevNJ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5562BDA6139FEFA6007548A9 /* Build configuration list for PBXProject "MobileDevNJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5562BDCB139FEFA7007548A9 /* Debug */,
+				5562BDCC139FEFA7007548A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5562BDCD139FEFA7007548A9 /* Build configuration list for PBXNativeTarget "MobileDevNJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5562BDCE139FEFA7007548A9 /* Debug */,
+				5562BDCF139FEFA7007548A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5562BDA3139FEFA6007548A9 /* Project object */;
+}
