@@ -23,14 +23,14 @@
 		5562BDB0139FEFA7007548A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5562BDB2139FEFA7007548A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5562BDB4139FEFA7007548A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5562BDB8139FEFA7007548A9 /* MobileDevNJ-Info.plist */ = {isa = PBXFileReference; path = "MobileDevNJ-Info.plist"; sourceTree = "<group>"; };
+		5562BDB8139FEFA7007548A9 /* MobileDevNJ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileDevNJ-Info.plist"; sourceTree = "<group>"; };
 		5562BDBA139FEFA7007548A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5562BDBC139FEFA7007548A9 /* MobileDevNJ-Prefix.pch */ = {isa = PBXFileReference; path = "MobileDevNJ-Prefix.pch"; sourceTree = "<group>"; };
+		5562BDBC139FEFA7007548A9 /* MobileDevNJ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileDevNJ-Prefix.pch"; sourceTree = "<group>"; };
 		5562BDBD139FEFA7007548A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5562BDBF139FEFA7007548A9 /* MobileDevNJAppDelegate.h */ = {isa = PBXFileReference; path = MobileDevNJAppDelegate.h; sourceTree = "<group>"; };
+		5562BDBF139FEFA7007548A9 /* MobileDevNJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileDevNJAppDelegate.h; sourceTree = "<group>"; };
 		5562BDC0139FEFA7007548A9 /* MobileDevNJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileDevNJAppDelegate.m; sourceTree = "<group>"; };
 		5562BDC3139FEFA7007548A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		5562BDC5139FEFA7007548A9 /* MobileDevNJViewController.h */ = {isa = PBXFileReference; path = MobileDevNJViewController.h; sourceTree = "<group>"; };
+		5562BDC5139FEFA7007548A9 /* MobileDevNJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileDevNJViewController.h; sourceTree = "<group>"; };
 		5562BDC6139FEFA7007548A9 /* MobileDevNJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileDevNJViewController.m; sourceTree = "<group>"; };
 		5562BDC9139FEFA7007548A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MobileDevNJViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

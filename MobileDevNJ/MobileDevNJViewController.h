@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MobileDevNJViewController : UIViewController {
+@interface MobileDevNJViewController : UIViewController <UITextFieldDelegate> {
+    UITapGestureRecognizer *touches;
     
-}
+    IBOutlet UITextField *followTextField;
+    IBOutlet UIView *followView;
+    IBOutlet UILabel *followLabel;
+}     
+
+-(void) handleTap:(UITapGestureRecognizer *) sender;
 
 @end
